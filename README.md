@@ -7,9 +7,7 @@ Welcome to my personal portfolio website!
 ---
 
 ## 🧠 About Me
-I’m **Ashok Pitta**, a Data Scientist and AI Developer with experience in **large-scale machine learning**, **LLMs**, and **retrieval-augmented generation (RAG)**.  
-Currently pursuing an **MSc in Artificial Intelligence at the University of Sheffield**, I work on projects that combine AI, big data, and finance.
-
+I’m **Ashok Pitta**, a Data Scientist and AI Developer with experience in **large-scale machine learning**, **LLMs**, and **retrieval-augmented generation (RAG)**. I have **recently completed my MSc in Artificial Intelligence at the University of Sheffield**, where my final dissertation focused on **Generative AI for Finance — Retrieval-Augmented Generation (RAG)**.
 ---
 
 ## 🚀 Projects Highlighted
