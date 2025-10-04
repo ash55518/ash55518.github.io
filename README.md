@@ -1,7 +1,6 @@
 # 🌐 Ashok Pitta — Portfolio Website
 
 Welcome to my personal portfolio website!  
-Built with **HTML, CSS, and JavaScript**, and hosted freely on **GitHub Pages**.
 
 🔗 **Live Site:** [https://ash55518.github.io](https://ash55518.github.io)
 
