@@ -90,15 +90,3 @@ I am a **Data Scientist and Python Developer** with experience in **large-scale 
 
 ---
 
-## ⚙️ Deployment Instructions
-1. Fork or clone this repo  
-2. Edit your details in `index.html` and `style.css`  
-3. Commit and push changes  
-4. GitHub Pages auto-deploys your site at  
-   👉 `https://YOUR_USERNAME.github.io`
-
----
-
-⭐ **If you like this project, please give it a star!**  
-It helps others discover the portfolio and supports continuous updates.
-
