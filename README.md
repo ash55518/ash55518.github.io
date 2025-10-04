@@ -8,10 +8,7 @@ Welcome to my personal portfolio website!
 ---
 
 ## 👨‍💻 About Me
-I am a **Data Scientist and Python Developer** with experience in **large-scale data analysis**, **predictive modeling**, and **natural language processing (NLP)**.  
-Skilled in **Python, SQL, TensorFlow, PyTorch, and HuggingFace**, I specialize in **LLMs**, **Retrieval-Augmented Generation (RAG)**, and **HPC-based scalable ML pipelines**.
-
-I have **recently completed my MSc in Artificial Intelligence at the University of Sheffield (UK)**, where my dissertation focused on **Generative AI for Finance — a RAG framework for financial document understanding**.
+I am a **Data Scientist and Python Developer** with experience in **large-scale data analysis**, **predictive modeling**, and **natural language processing (NLP)**.  Skilled in **Python, SQL, TensorFlow, PyTorch, and HuggingFace**, I specialize in **LLMs**, **Retrieval-Augmented Generation (RAG)**, and **HPC-based scalable ML pipelines**.I have **recently completed my MSc in Artificial Intelligence at the University of Sheffield (UK)**, where my dissertation focused on **Generative AI for Finance — a RAG framework for financial document understanding**.
 
 ---
 
