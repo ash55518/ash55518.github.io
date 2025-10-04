@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ashok Pitta · Portfolio</title>
+  <meta name="description" content="Ashok Pitta — Data Scientist & AI Developer. MSc AI (University of Sheffield). LLMs, RAG, NLP, HPC-scale ML." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#home" aria-label="Ashok Pitta">AP</a>
+      <button id="themeToggle" aria-label="Toggle theme" title="Toggle light/dark">🌓</button>
+      <ul class="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="accent">Ashok Pitta</span></h1>
+        <p class="lead">Data Scientist & AI Developer — LLMs · RAG · NLP · HPC‑scale ML</p>
+        <p class="sublead">MSc Artificial Intelligence, University of Sheffield</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="assets/Ashok_Pitta_CV.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
+          <a class="btn outline" href="https://linkedin.com/in/ashok-pitta-ai" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Decorative gradient art"></div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>Profile</h2>
+      <p>
+        Data Scientist and Python Developer with experience in large-scale data analysis, predictive modeling, and NLP.
+        Skilled in Python, SQL, TensorFlow, PyTorch, and HuggingFace, with hands-on expertise in LLMs, Retrieval-Augmented
+        Generation (RAG), and HPC-based scalable ML. Recently completed an MSc in Artificial Intelligence at the
+        University of Sheffield, combining academic research with industry-focused data science applications.
+      </p>
+    </section>
+
+    <section id="experience" class="container section">
+      <h2>Professional Experience</h2>
+      <article class="exp-item card">
+        <header class="exp-header">
+          <h3>Python Developer / Data Scientist — <span class="muted">Yexponent</span></h3>
+          <div class="exp-meta">Hyderabad, India · May 2022 – June 2024</div>
+        </header>
+        <ul class="exp-bullets">
+          <li>Cleaned, transformed, and visualized large-scale healthcare datasets using Pandas, NumPy, Seaborn, and Matplotlib.</li>
+          <li>Led EDA and feature engineering to support predictive modeling and ML pipelines.</li>
+          <li>Delivered automated dashboards and weekly analytics reports to stakeholders.</li>
+          <li>Translated business problems into data-driven solutions to improve healthcare outcomes.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>FinanceRAG — Financial Document Understanding</h3>
+<img class="thumb" src="assets/finance_rag.svg" alt="FinanceRAG pipeline diagram" data-lightbox="assets/finance_rag.svg" data-caption="FinanceRAG — Hybrid retrieval, fusion reranking, and LLM generation." />
+          <p>Built a Retrieval-Augmented Generation (RAG) pipeline for financial QA integrating dense + lexical retrieval, hybrid fusion, multi-reranker ensembles, and LLM-based generation. Achieved <strong>nDCG@10 = 0.58</strong> with strong RAGAS relevance/correctness.</p>
+          <p class="muted small">Tech: Python, PyTorch, HuggingFace, FAISS/BM25, BGE, Spark</p>
+        </article>
+        <article class="card">
+          <h3>Web Traffic Time‑Series Forecasting</h3>
+<img class="thumb" src="assets/wiki_traffic.svg" alt="Animated time series plot" data-lightbox="assets/wiki_traffic.svg" data-caption="Animated time‑series lines and forecast horizon." />
+          <p>Forecasted visits for 145,000 Wikipedia pages using a mix of classic, anomaly-aware, and clustering-based approaches to capture patterns across related pages.</p>
+          <p class="muted small">Tech: Python, pandas, scikit-learn, statsmodels</p>
+        </article>
+        <article class="card">
+          <h3>Flash Flood Intimation over IoT</h3>
+<img class="thumb" src="assets/iot_flood.svg" alt="IoT river level sensor and alert" data-lightbox="assets/iot_flood.svg" data-caption="River level sensing and real‑time alert with IoT." />
+          <p>Designed an IoT system to detect rising water levels and notify authorities in real time. Built around microcontrollers, sensors, and telemetry dashboards.</p>
+          <p class="muted small">Tech: Microcontrollers, sensors, data protocols, dashboards</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="container section">
+      <h2>Education</h2>
+      <div class="edu-grid">
+        <article class="card">
+          <h3>MSc Artificial Intelligence</h3>
+          <div class="muted">The University of Sheffield, UK (2024–2025) · 2:1</div>
+          <p class="small">Dissertation: Retrieval‑Augmented Generation for Financial QA</p>
+        </article>
+        <article class="card">
+          <h3>B.Tech Electronics & Communication Engineering</h3>
+          <div class="muted">Pragati Engineering College, India (2018–2022)</div>
+          <p class="small">CGPA: 8.14 / 10</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="container section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="card">
+          <h3>Programming</h3>
+          <ul class="chip-list">
+            <li class="chip">Python</li><li class="chip">Java</li><li class="chip">HTML</li><li class="chip">CSS</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>AI / ML</h3>
+          <ul class="chip-list">
+            <li class="chip">PyTorch</li><li class="chip">TensorFlow</li><li class="chip">HuggingFace</li><li class="chip">scikit‑learn</li><li class="chip">SciPy</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Big Data & HPC</h3>
+          <ul class="chip-list">
+            <li class="chip">PySpark</li><li class="chip">SLURM</li><li class="chip">GPU/CPU Parallelism</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Databases & Viz</h3>
+          <ul class="chip-list">
+            <li class="chip">Oracle SQL</li><li class="chip">Excel</li><li class="chip">Matplotlib</li><li class="chip">Seaborn</li><li class="chip">Power BI</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>NLP & LLMs</h3>
+          <ul class="chip-list">
+            <li class="chip">Transformers</li><li class="chip">Text Processing</li><li class="chip">RAG</li><li class="chip">Model Optimization</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>IoT & ETL</h3>
+          <ul class="chip-list">
+            <li class="chip">Microcontrollers</li><li class="chip">Sensors</li><li class="chip">ETL Pipelines</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="languages" class="container section">
+      <h2>Languages</h2>
+      <ul class="chip-list">
+        <li class="chip">English (IELTS 7 band)</li>
+        <li class="chip">Telugu (Mother tongue)</li>
+        <li class="chip">Hindi</li>
+        <li class="chip">Spanish (basic)</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <p>📧 <a href="mailto:ashokkumarpitta555@gmail.com">ashokkumarpitta555@gmail.com</a> ·
+         <a href="tel:+447379252988">+44 7379 252988</a> ·
+         <a href="https://linkedin.com/in/ashok-pitta-ai" target="_blank" rel="noopener">LinkedIn</a></p>
+      <form class="contact-form" action="https://formspree.io/f/mleqylka" method="POST">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" placeholder="Your message" rows="4" required></textarea>
+        <button class="btn primary" type="submit">Send</button>
+      </form>
+      <p class="muted small">Form powered by Formspree (free). Replace the endpoint with your own.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Ashok Pitta · Built with HTML/CSS/JS · Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+<!-- Lightbox modal -->
+<div id="lightbox">
+  <div id="lightbox-content"></div>
+  <div id="lightbox-caption" class="caption"></div>
+</div>
+</body>
+</html>
